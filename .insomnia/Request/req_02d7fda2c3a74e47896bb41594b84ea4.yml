@@ -1,0 +1,33 @@
+_id: req_02d7fda2c3a74e47896bb41594b84ea4
+type: Request
+parentId: fld_951393890d5a405b82c328c0edd17e28
+modified: 1663783022149
+created: 1663546676217
+url: http://localhost:4000/graphql
+name: findSubjectSummariesStats
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tfindSubjectSummariesStats {\n\t\twithIssue, noIssue,
+    total,\n\t\tdailyCoughs
+    {\n\t\t\tavgFirstDay,\n\t\t\tavgChange\n\t\t}\n\t\tawakeCoughs
+    {\n\t\t\tavgFirstDay,\n\t\t\tavgChange\n\t\t}\n\t}\n}"}'
+parameters: []
+headers:
+  - id: pair_042593d2605c4e299121b149da72aef4
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InRva2VuIjoiODllYTYzOTc2Y2Y4NDNjODU1MDk3OTQwZDhlYWFmMmM2Yjc5ZDcyNmUwYmNiODJhOTY4MWM1ZmViYjgxOTg3MWVmMmRjODdkMGQ5NTlmZjJhZmIxZmQiLCJpc0ltcGVyc29uYXRlZCI6ZmFsc2UsInVzZXJJZCI6IjYzMjRhZGIzZTQ5M2E1NjYzOTZhZmU4OCJ9LCJpYXQiOjE2NjM1MzU5MTQsImV4cCI6MTY2ODcxOTkxNH0.c4bi7IUv-WtxhCdIz4hIHGYzhNwUOA6fEX36wuEcTOg
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8b72f7df9be54a11890c8ec804b6660f
+authentication: {}
+metaSortKey: -1663146038398.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

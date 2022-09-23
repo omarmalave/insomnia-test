@@ -1,0 +1,34 @@
+_id: req_606c055989a34b32ae2c2bf09472ccfb
+type: Request
+parentId: fld_c4fc03c5bc1045f1820d5a5ca39a50da
+modified: 1663270623623
+created: 1663165285486
+url: localhost:4000/graphql
+name: createSubjectIssue
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n\tcreateSubjectIssue(\n\t\tinput:
+    {\n\t\t\tsubjectId: \"6282f4c5983714480c448ddc\",\n\t\t\tdescription:
+    \"test-mut1\",\n\t\t\tissueType: client_reported\n\t\t}\n\t)
+    {\n\t\tid\n\t\tissues
+    {\n\t\t\tdescription,\n\t\t\tissueType\n\t\t}\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ad808487138b42be902e4d108cbea75a
+  - id: pair_170003eecd9a40059c7eea97a5a859fb
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InRva2VuIjoiYTdkMjY0N2IwYzM2M2JmMjExYjY3ODkyNzY1Yzc2NzFmNDMxY2U1NmU1YmNkODY0ODNlMTU1NTA3MGY0NGYyMzM3MzVhODQyODM2YjkyMzI3OGQwMWIiLCJpc0ltcGVyc29uYXRlZCI6ZmFsc2UsInVzZXJJZCI6IjYzMTIxNjdkN2Y5YTZhYzRhNGQ2MGJlMiJ9LCJpYXQiOjE2NjMxNjM2NDQsImV4cCI6MTY5NDY5OTY0NH0.gvYao3SsptHAWpWpm7x70BbZ0yK4Yzb2AlU_svbN3Kw
+    description: ""
+authentication: {}
+metaSortKey: -1663093201886.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

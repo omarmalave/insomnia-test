@@ -1,0 +1,32 @@
+_id: req_c2586ba4adfa48f28fcaae5ef3f21ff0
+type: Request
+parentId: fld_c4fc03c5bc1045f1820d5a5ca39a50da
+modified: 1663773704830
+created: 1663215287258
+url: localhost:4000/graphql
+name: updateSubject
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n\tupdateSubject(input: {id:
+    \"632a69efadfbe3c099c1f13d\", isCompleted: true}) {\n\t\tid,
+    isCompleted\n\t\t\n\t\t\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ad808487138b42be902e4d108cbea75a
+  - id: pair_170003eecd9a40059c7eea97a5a859fb
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InRva2VuIjoiYjZjZjljNzMzMjUyNzdkNjg5MzczNDg0NWJkNjFhMzlkNTMwNTg3MThmYWE0MmZkODVmOTNhYWQ5NjNlOTAzZjJkOWYxZmZmZTM1NmFiY2RjNmYzOTIiLCJpc0ltcGVyc29uYXRlZCI6ZmFsc2UsInVzZXJJZCI6IjYzMTIxNjdkN2Y5YTZhYzRhNGQ2MGJlMiJ9LCJpYXQiOjE2NjM3NzM2NzEsImV4cCI6MTY2Mzc3NzI3MX0.xKhWSfuZyf2t57z-tQYHzu4f_TZ0XpmvvcS9WqLVaQs
+    description: ""
+authentication: {}
+metaSortKey: -1663093201836.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

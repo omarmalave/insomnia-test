@@ -1,0 +1,34 @@
+_id: req_724ec11a102b476cbe9b1577b30fe075
+type: Request
+parentId: fld_c4fc03c5bc1045f1820d5a5ca39a50da
+modified: 1663864383554
+created: 1663813721239
+url: localhost:4000/graphql
+name: createSession
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation {\n\tcreateSession(\n\t\tinput: {\n\t\t\tsubjectId:
+    \"2358-850\",\n\t\t\tdeviceId: \"CLW15677031\",\n\t\t\tuploadId:
+    \"CLW15677031-CC-2022-09-21T12-50-28\",\n\t\t\tstartDate:
+    \"2022-09-19T12:36:08\",\n\t\t\tendDate: \"2022-09-21T12:38:48\"\n\t\t}\n\t)
+    {\n\t\tid\n\t}\n}"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ad808487138b42be902e4d108cbea75a
+  - id: pair_170003eecd9a40059c7eea97a5a859fb
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InRva2VuIjoiYTdkMjY0N2IwYzM2M2JmMjExYjY3ODkyNzY1Yzc2NzFmNDMxY2U1NmU1YmNkODY0ODNlMTU1NTA3MGY0NGYyMzM3MzVhODQyODM2YjkyMzI3OGQwMWIiLCJpc0ltcGVyc29uYXRlZCI6ZmFsc2UsInVzZXJJZCI6IjYzMTIxNjdkN2Y5YTZhYzRhNGQ2MGJlMiJ9LCJpYXQiOjE2NjMxNjM2NDQsImV4cCI6MTY5NDY5OTY0NH0.gvYao3SsptHAWpWpm7x70BbZ0yK4Yzb2AlU_svbN3Kw
+    description: ""
+authentication: {}
+metaSortKey: -1663093201911.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

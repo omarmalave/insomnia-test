@@ -1,0 +1,31 @@
+_id: req_1df522d576014815b20d0f7e6169ebb4
+type: Request
+parentId: fld_951393890d5a405b82c328c0edd17e28
+modified: 1663783015715
+created: 1663259740016
+url: http://localhost:4000/graphql
+name: findSubjectIssuesTotals
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tfindSubjectIssuesTotals(active: null)
+    {\n\t\tissueType, total\n\t}\n}"}'
+parameters: []
+headers:
+  - id: pair_042593d2605c4e299121b149da72aef4
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InRva2VuIjoiNmJmZjE3MmExYmVjN2RlYmMwMmM1NWViOTlmYWM0MTc5MjcyZGFiNWEzMmY0ODE2YTBiYjMwZTlmNzlhMWU4Y2Y3NzIwZTQ0MThlZDgzNTAwMTc0YjciLCJpc0ltcGVyc29uYXRlZCI6ZmFsc2UsInVzZXJJZCI6IjYzMTIxNjdkN2Y5YTZhYzRhNGQ2MGJlMiJ9LCJpYXQiOjE2NjM3ODEwMzQsImV4cCI6MTY2Mzc4NDYzNH0.lz1rimG-q3ak_00Vc49B1VvylrNvKkyTkDidOOLFwYM
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8b72f7df9be54a11890c8ec804b6660f
+authentication: {}
+metaSortKey: -1663110814123.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

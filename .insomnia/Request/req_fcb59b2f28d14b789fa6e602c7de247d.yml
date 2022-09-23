@@ -1,0 +1,30 @@
+_id: req_fcb59b2f28d14b789fa6e602c7de247d
+type: Request
+parentId: fld_951393890d5a405b82c328c0edd17e28
+modified: 1663784907654
+created: 1663248991366
+url: http://localhost:4000/graphql
+name: findSubjectStatusTotals
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {\n\tfindSubjectStatusTotals {\n\t\tlabel, total\n\t}\n}"}'
+parameters: []
+headers:
+  - id: pair_042593d2605c4e299121b149da72aef4
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InRva2VuIjoiODkyOTU1N2ViMzAwMTkyMDc5YTQ3YmJhYjA2MjRiZDZhMjRkMDdlZWY0YWJiMTM2MzlhY2VjYWI1MGU0NThhMDJlYzgxNWRkYzdmN2JhMDdkZmJiMTAiLCJpc0ltcGVyc29uYXRlZCI6ZmFsc2UsInVzZXJJZCI6IjYzMTIxNjdkN2Y5YTZhYzRhNGQ2MGJlMiJ9LCJpYXQiOjE2NjM3ODQ4ODcsImV4cCI6MTY2Mzc4ODQ4N30.KPy1Jn1faEfmCpIeBTpkZ-4tmhMMQ8gh8BvrLKu-ybM
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_8b72f7df9be54a11890c8ec804b6660f
+authentication: {}
+metaSortKey: -1663128426261.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
